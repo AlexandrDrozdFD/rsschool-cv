@@ -1,0 +1,98 @@
+body {
+    min-width: 800px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+    background-color: #eaeae1;
+}
+.wrap {
+    max-width: 1024px;
+    margin: auto;
+    border: black solid 1px;
+    display: flex;
+    -webkit-box-shadow: 1px 81px 100px 5px rgba(0,0,0,0.49);
+    -moz-box-shadow: 1px 81px 100px 5px rgba(0,0,0,0.49);
+    box-shadow: 1px 81px 100px 5px rgba(0,0,0,0.49);
+}
+.img {
+    align-self: center;
+    width: 15rem;
+    height: 15rem;
+}
+.img img {
+    object-fit: cover;    
+    border-radius: 5%;
+    width: 100%;
+    -webkit-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
+    box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
+}
+.about_me_img {
+    padding: 1rem;
+    width: 35%;
+    color: white;
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.contact, .me__skills {
+    text-transform: uppercase;
+}
+.underlined {
+    width: 100%;
+    height: .05rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+.underlined-grey {
+    width: 100%;
+    height: .05rem;
+    margin-top: 0.5rem;
+    background-color: grey;
+    margin-bottom: 5rem;
+}
+.about-me {
+    padding: 1rem;
+    width: 75%;
+    color: #4d4d4d;
+    background-color: white;
+}
+.phone, .skype, .linkedin {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.phone__elem2, .skype__elem2, .linkedIn__elem2 {
+    margin-left: 1rem;
+}
+.linkedIn__elem2 {
+    margin-bottom: 2rem;
+}
+#link {
+    text-decoration: none;
+    color: white;
+}
+#link:hover {
+    color: orange;
+} 
+#proskills-icons{
+    font-size: 3rem;
+}
+.desc {
+    padding: 10px;
+    display: flex;
+    font-size: 15px;
+    line-height: 1.5;
+    border-top: solid grey 1px;
+}
+.desc__item1 {
+    width: 35%;
+}
+.desc__item2 {
+    padding-left: 10px; 
+    width: 75%;
+}
+.referencies {
+    line-height: 1.5;
+}
