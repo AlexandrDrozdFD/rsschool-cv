@@ -31,7 +31,7 @@ Description: JavaScript (advanced): OOP, Git, GitKraken, DOM, JSON, AJAX, ES6, S
 
 __10/2019 – 02/2020__ – __IT Academy__\
 Course: Website Development With HTML, CSS & JavaScript\
-Description: HTML5 (base tags, code optimization, validation, meta tags, Avocode),\ 
+Description: HTML5 (base tags, code optimization, validation, meta tags, Avocode),
 CSS (SCSS/SASS, float, flex, grid, animation, responsive, adaptive, @media, cross-browser coding)\
 JavaScript (codebase, tag <script>, async/defer, data type, array, function)
 
@@ -56,13 +56,14 @@ __Tools & Technologies:__ ES5, HTML5, CSS(SCSS), JavaScript, Fancybox, Swiper, A
 __Description:__ Site that allows you to quickly create an order for the purchase of goods and raw materials. It is based on a model of real\ business using the studied programming technologies
 
 __09/2013 – 12/2019__ – __Director (Owner), Wholesale company__\
-__Main responsibilities:__\
+__Main responsibilities:__
 * general management of the company
 * transactions and deals support, complete supply cycle of raw materials in Belarus
 * interaction with suppliers in Russia, Kazakhstan, Kyrgyzstan, Iran, Ukraine
 * international trading of milk products
-Achievements:
-* entered in top 10 biggest suppliers of raw materials in Belarus
+
+__Achievements:__
+entered in top 10 biggest suppliers of raw materials in Belarus
 
 ### Additional Information
 
@@ -74,7 +75,7 @@ __Professional interests:__
 * Kyle Simpson, “You don’t know JS”
 * dev.by
 
-Military obligation status: liable for military service
+__Military obligation status:__ liable for military service
 
 __Reason for applying for a job:__ \
 Progress in actual front-end technologies, learning new frameworks and acquisition of experience, growth in «horizontal» direction, improving my foreign language skills
