@@ -1,10 +1,10 @@
 ## Alexandr Drozd
-__Tel: +375-291654125__
-__Email:  alex.drozd.fd@gmail.com__
-__:zap: Skype:  alexanderdr.__
-__LinkedIn: [linkedin.com/in/alexander-drozd-2748b31a8](linkedin.com/in/alexander-drozd-2748b31a8)__
+__Tel: +375-291654125__  
+__Email:  alex.drozd.fd@gmail.com__  
+:zap: __Skype:  alexanderdr.__  
+__LinkedIn: [linkedin.com/in/alexander-drozd-2748b31a8](linkedin.com/in/alexander-drozd-2748b31a8)__  
 
-__Objective:__ Junior Front-end Developer (junior software engineer)
+__Objective:__ Junior Front-end Developer (junior software engineer)\
 
 __Skills:__ 
 
@@ -23,7 +23,7 @@ __Skills:__
 
 __English Proficiency:__ pre-intermediate (read technical literature, conduct business correspondence, understand content of audio and video materials according to the level).            
 
-__Education:__
+__Education:__\
 
 __09/2020 – nowadays__ – __Rolling Scopes School__\
 Course: Javascript Development\
