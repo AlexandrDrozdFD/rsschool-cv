@@ -63,8 +63,8 @@ __Main responsibilities:__
 * general management of the company
 * transactions and deals support, complete supply cycle of raw materials in Belarus
 * interaction with suppliers in Russia, Kazakhstan, Kyrgyzstan, Iran, Ukraine
-* international trading of milk products
-Achievements:
+* international trading of milk products\
+__Achievements:__
 * entered in top 10 biggest suppliers of raw materials in Belarus
 
 __Additional Information__
