@@ -4,7 +4,7 @@ __Email:  alex.drozd.fd@gmail.com__
 :zap: __Skype:  alexanderdr.__  
 __LinkedIn: [linkedin.com/in/alexander-drozd-2748b31a8](linkedin.com/in/alexander-drozd-2748b31a8)__  
 
-__Objective:__ Junior Front-end Developer (junior software engineer)\
+__Objective:__ Junior Front-end Developer (junior software engineer)
 
 __Skills:__ 
 
@@ -23,7 +23,7 @@ __Skills:__
 
 __English Proficiency:__ pre-intermediate (read technical literature, conduct business correspondence, understand content of audio and video materials according to the level).            
 
-__Education:__\
+__Education:__
 
 __09/2020 – nowadays__ – __Rolling Scopes School__\
 Course: Javascript Development\
@@ -44,7 +44,7 @@ Faculty: Economics\
 Description: Bachelor’s degree\
 Specialization: Economist
 
-__Work experience__ \
+__Work experience__ 
 
 __02/2020 – 06/2020__ – __IT Academy__\
 __Project name:__ to-do list app\
@@ -59,7 +59,7 @@ __Tools & Technologies:__ ES5, HTML5, CSS(SCSS), JavaScript, Fancybox, Swiper, A
 __Description:__ Site that allows you to quickly create an order for the purchase of goods and raw materials. It is based on a model of real business using the studied programming technologies
 
 __09/2013 – 12/2019__ – __Director (Owner), Wholesale company__\
-__Main responsibilities:__\
+__Main responsibilities:__
 * general management of the company
 * transactions and deals support, complete supply cycle of raw materials in Belarus
 * interaction with suppliers in Russia, Kazakhstan, Kyrgyzstan, Iran, Ukraine
