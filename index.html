@@ -1,117 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/main.css" />
     <title>CV</title>
-</head>
-<body>
-    <main class="wrap">
-        <section class="about_me_img">
-            <div class="img">
-                <img src="./assets/images/face.jpg" alt="face">
+  </head>
+  <body>
+    <main class="cv">
+      <section class="about">
+        <h2 class="cosmos">About</h2>
+        <header class="header">
+          <figure class="photo">
+            <img src="./assets/images/face.jpg" alt="Alexandr Drozd" />
+          </figure>
+        </header>
+        <article class="contacts">
+          <h2 class="contacts__text">contact me</h2>
+          <div class="underlined"></div>
+          <ul class="phone">
+            <li class="phone__icon"><i class="fas fa-phone-volume"></i></li>
+            <li class="phone_number">+375-29-1654125</li>
+          </ul>
+          <ul class="skype">
+            <li class="skype__icon"><i class="fab fa-skype"></i></li>
+            <li class="skype__nik">alexanderdr.</li>
+          </ul>
+          <ul class="linkedin">
+            <li class="linkedIn__icon"><i class="fab fa-linkedin"></i></li>
+            <li class="linkedIn__link">
+              <a id="link" href="https://linkedin.com/in/alexander-drozd-2748b31a8">
+                here !
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article class="skills">
+          <h2 class="contacts__text">skills</h2>
+          <div class="underlined"></div>
+          <ul class="skills_list">
+            <li>HTML5</li>
+            <li>CSS3, SASS</li>
+            <li>JavaScript</li>
+            <li>Git</li>
+            <li>npm</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Nodejs</li>
+            <li>English: A2+</li>
+          </ul>
+          <div id="work-examples">
+            <h2 class="contacts__text">work examples</h2>
+            <div class="underlined"></div>
+            <nav class="works">
+              <ul>
+                <li>
+                  <a href="https://phoenixcom.github.io">Phoenix-Com</a>
+                </li>
+                <li>
+                  <a href="https://rolling-scopes-school.github.io/alexandrdrozdfd-JS2020Q3/webdev/">WebDev</a>
+                </li>
+                <li>
+                  <a href="https://rolling-scopes-school.github.io/alexandrdrozdfd-JS2020Q3/shelter/pages/main/">Shelter</a>
+                </li>
+                <li>
+                  <a href="https://github.com/AlexandrDrozdFD">Another code</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </article>
+        <div class="rss"></div>
+      </section>
+      <section class="about-me">
+        <h1 class="name">Alexandr Drozd</h1>
+        <h3>Junior Front-end Developer</h3>
+        <div class="underlined-grey"></div>
+        <article class="education">
+          <h2>Education</h2>
+          <div class="description">
+            <div class="description__item1">
+              <div>
+                <span class="strong">09/2020</span> – <span class="strong">nowadays</span>
+              </div>
+              <div>
+                <span class="strong">Rolling Scopes School</span>
+              </div>
             </div>
-            <div class="me__contacts">
+            <div class="description__item2">
+              <span class="strong">Course:</span> JavaScript Development
+            </div>
+          </div>
+          <div class="description">
+            <div class="description__item1">
+              <div>
+                <span class="strong">02/2020 – 06/2020</span>
+              </div>
+              <div>
+                <span class="strong">IT Academy</span>
+              </div>
+            </div>
+            <div class="description__item2">
+              <span class="strong">Course</span>: 
+              Web Application Development With JavaScript (advanced)
+            </div>
+          </div>
+          <div class="description">
+            <div class="description__item1">
+              <div>
+                <span class="strong">10/2019 – 02/2020</span>
+              </div>
+              <div>
+                <span class="strong">IT Academy</span>
+              </div>
+            </div>
+            <div class="description__item2">
+              <span class="strong">Course</span>: Website Development With HTML, CSS & JavaScript
+            </div>
+          </div>
+        </article>
+        <article class="experience">
+          <h2>Experience</h2>
+          <div class="description">
+            <div class="description__item1">
+              <div>
+                <span class="strong">02/2020 – 06/2020</span>
+              </div>
+              <div>
+                <span class="strong">IT Academy</span>
+              </div>
+            </div>
+            <div class="description__item2">
+              <b>Project name:</b> to-do list app<br />
+              <b>Role:</b> Junior Front-end Developer<br />
+              <b>Tools & Technologies:</b> ES6, MVC, SPA, Modules, AJAX,
+              Node.js, npm<br />
+              <b>Description:</b> to-do list application that allows you to
+              manage and control cases and tasks
+            </div>
+          </div>
+          <div class="description">
+            <div class="description__item1">
+              <div>
+                <span class="strong">10/2019 – 02/2020</span>
+              </div>
+              <div>
+                <span class="strong">IT Academy</span>
+              </div>
+            </div>
+            <div class="description__item2">
+              <b>Project name:</b> phoenixcom site<br />
+              <b>Role:</b> Junior Front-end Developer<br />
+              <b>Tools & Technologies:</b> ES5, HTML5, CSS(SASS), JavaScript,
+              Fancybox, Swiper, Avocode<br />
+              <b>Description:</b> Site that allows you to quickly create an
+              order for the purchase of goods and raw materials. It is based on
+              a model of real business using the studied programming
+              technologies
+            </div>
+          </div>
+          <div class="description">
+            <div class="description__item1">
+              <b>09/2013 – 12/2019 – Director (Owner)<br />Wholesale company</b>
+            </div>
+            <div class="description__item2">
+              <b>Main responsibilities:</b><br />
+              <ul>
+                <li>
+                  transactions and deals support, complete supply cycle of raw
+                  materials in Belarus
+                </li>
+                <li>
+                  interaction with suppliers in Russia, Kazakhstan, Kyrgyzstan,
+                  Iran, Ukraine
+                </li>
+                <li>international trading of milk products</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="referencies">
+          <h2>Referencies</h2>
+          <p>
+            Letter of recommendation from Educational Center for Programming and
+            High Tech (IT-Academy) References
+          </p>
+        </article>
+        <footer class="footer">
+          <nav class="footer__nav">
+            <ul class="footer__nav__list">
+              <li class="git-link">
+                <a href="https://github.com/AlexandrDrozdFD"> <i class="fab fa-github"></i></a>
+              </li>
+              <li class="youtube-link">
+                <a href="https://www.youtube.com/channel/UCphtcXzzLW9JtrotjaQYTtw"> <i class="fab fa-youtube"></i></a>
                 
-                <span class="contact">contact me</span> 
-                <div class="underlined"></div>
-                
-                <div class="phone">
-                    <div class="phone__elem1"><i class="fas fa-phone-volume"></i></div>
-                    <div class="phone__elem2">+375-29-1654125</div> 
-                </div>
-                <div class="skype">
-                    <div class="skype__elem1"><i class="fab fa-skype"></i></div>
-                    <div class="skype__elem2">alexanderdr.</div>
-                    
-                </div>
-                <div class="linkedin">
-                    <div class="linkedIn__elem1"><i class="fab fa-linkedin"></i></div>
-                    <div class="linkedIn__elem2"><a id="link" href="https://linkedin.com/in/alexander-drozd-2748b31a8">here !</a></div>
-                </div>
-            </div>
-            <div class="me__skills">
-                <span class="contact">pro skills</span> 
-                <div class="underlined"></div>
-                <div id="proskills-icons">
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3-alt"></i>
-                    <i class="fab fa-sass"></i>
-                    <i class="fab fa-js"></i>
-                    <i class="fab fa-node"></i>
-                    <i class="fab fa-npm"></i>
-                    <i class="fab fa-github"></i>
-
-                </div>
-            </div>
-            
-        </section>
-        <section class="about-me">
-
-            <h1 class="name">Alexandr Drozd</h1>
-            <h3>Junior Front-end Developer</h3>
-            <div class="underlined-grey"></div>
-            
-            <article class="experience">
-                <h3><b>Experience</b></h3>
-                <div class="desc">
-                    <div class="desc__item1"><b>02/2020 – 06/2020<br>IT Academy</b></div>
-                    <div class="desc__item2">
-                        <b>Project name:</b> to-do list app<br>
-                        <b>Role:</b> Junior Front-end Developer<br>
-                        <b>Tools & Technologies:</b> ES6, MVC, SPA, Modules, AJAX, Node.js, npm<br>
-                        <b>Description:</b> to-do list application that allows you to manage and control cases and tasks
-                    </div>
-                </div>
-                <div class="desc">
-                    <div class="desc__item1"><b>10/2019 – 02/2020<br>IT Academy</b></div>
-                    <div class="desc__item2">
-                        <b>Project name:</b> phoenixcom site<br>
-                        <b>Role:</b> Junior Front-end Developer<br>
-                        <b>Tools & Technologies:</b> ES5, HTML5, CSS(SASS), JavaScript, Fancybox, Swiper, Avocode<br>
-                        <b>Description:</b> Site that allows you to quickly create an order for the purchase of goods and raw materials. It is based on a model of real business using the studied programming technologies
-                    </div>
-                </div>
-                <div class="desc">
-                    <div class="desc__item1"><b>09/2013 – 12/2019 – Director (Owner)<br>Wholesale company</b></div>
-                    <div class="desc__item2">
-                        <b>Main responsibilities:</b><br>
-                        <ul>
-                            <li>transactions and deals support, complete supply cycle of raw materials in Belarus</li>
-                            <li>interaction with suppliers in Russia, Kazakhstan, Kyrgyzstan, Iran, Ukraine</li>
-                            <li>international trading of milk products</li>
-                        </ul>
-                        <b>Achievements:</b><br>
-                        entered in top 10 biggest suppliers of raw materials in Belarus
-
-                    </div>
-                </div>
-            </article>
-            <article class="education">
-                <h3><b>Education</b></h3>
-                <div class="desc">
-                    <div class="desc__item1"><b>02/2020 – 06/2020<br>IT Academy</b></div>
-                    <div class="desc__item2">
-                        <b>Course: </b>Web Application Development With JavaScript (advanced)<br>
-                    </div>
-                </div>
-                <div class="desc">
-                    <div class="desc__item1"><b>10/2019 – 02/2020 <br>IT Academy</b></div>
-                    <div class="desc__item2">
-                        <b>Course: </b>Website Development With HTML, CSS & JavaScript<br>
-                    </div>
-                </div>
-            </article>
-            <article class="referencies">
-                <h3><b>Referencies</b></h3>
-                <p>Letter of recommendation from Educational Center for Programming and High Tech (IT-Academy) References</p>
-            </article>
-        </section>
+              </li>
+              <li class="course-link">
+                <a href="https://rs.school/js"><i class="fab fa-js"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </footer>
+      </section>
     </main>
-</body>
+  </body>
 </html>
