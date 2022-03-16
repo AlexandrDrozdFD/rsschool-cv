@@ -1,1 +1,1 @@
-[https://AlexandrDrozdFD.github.io/rsschool-cv/cv](cv (markdown))
+[cv (markdown)](https://AlexandrDrozdFD.github.io/rsschool-cv/cv)
