@@ -84,6 +84,6 @@ Progress in actual front-end technologies, learning new frameworks and acquisiti
 
 __References:__
 
-Letter of recommendation from:\
-* IBBY (Belarus, ib.by).\
+Letter of recommendation from:
+* IBBY (Belarus, ib.by).
 * Educational Center for Programming and High Tech (IT-Academy).
